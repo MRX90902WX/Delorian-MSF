@@ -1,6 +1,10 @@
 # Delorian-MSF
 Esta script automatiza el trabajo de hacer una apk infectada con msfvenom y la crea en la ruta /carpetas, luego monta un server php local para mediante exponerlo al usuario con el link de ngrok , Usar Ig social para que la victima descargue el apk en la página web!!! SOLO PARA FINES EDUCATIVOS.
 
+#REQUISITOS
+
+-Tener Metasploit-Framework y python2 instalado
+
 #USO
 
 CLONAR REPOSITORIO
