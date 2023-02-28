@@ -3,7 +3,7 @@ Esta script automatiza el trabajo de hacer una apk infectada con msfvenom y la c
 
 #REQUISITOS
 
--Tener Metasploit-Framework y python2 instalado
+-Tener Metasploit-Framework, python2 y ngrok instalado
 
 #USO
 
