@@ -25,6 +25,24 @@ sleep 3
 pkg install python2 -y
 fi
 
+#directory verification
+directory=$(pwd)
+
+
+if which php >/dev/null; then
+sleep 1
+echo ""
+echo -e "$blue(php) ................................................... Instalado [✓]"
+else
+sleep 1
+echo -e "(php) No instalado [✗]"
+sleep 1
+echo -e "\e[1;32mInstalando php ...\e[0m"
+sleep 3
+pkg install php -y
+fi
+
+
 pkg uninstall openssh -y
 pkg uninstall dropbear -y
 pkg install openssh -y
