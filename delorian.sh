@@ -73,8 +73,7 @@ echo -e "\e[1;31m-----------------------------------------\e[0m"
 echo -e "\e[1;31m|\e[0m   \e[1;32m1)\e[0m\e[1;37mTunnel SSH\e[0m            \e[1;32m2)\e[0m\e[1;37mNgrok\e[0m     \e[1;31m|\e[0m"
 echo -e "\e[1;31m-----------------------------------------\e[0m"
 echo ""
-setterm -foreground green
-echo -n "Delorian > "
+echo -e -n "\e[1;32mDelorian\e[0m \e[1;33m>>\e[0m \e[1;37m\e[0m"
 read tunel
 case $tunel in
 1)
